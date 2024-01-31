@@ -37,7 +37,7 @@ def get_numbers_ticket(min: int, max: int, quantity: int):
     return []
         
      
-lottery_numbers = get_numbers_ticket(10, 20, 5)
+lottery_numbers = get_numbers_ticket(10,20,5)
 print("Ваші лотерейні числа:", lottery_numbers)
 
 
