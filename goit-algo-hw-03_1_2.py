@@ -25,7 +25,7 @@ def get_numbers_ticket(min: int, max: int, quantity: int):
 
     set_number = set()  
 
-    if min >=1 and max <=1000 and quantity > 0 and quantity < max:            
+    if min >=1 and max <=1000 and quantity > 0 and quantity <= max:            
         while len(set_number) != quantity:
                 number = random.randrange(min, max)
                 set_number.add(number)   
