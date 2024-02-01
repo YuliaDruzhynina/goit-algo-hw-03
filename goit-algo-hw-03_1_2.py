@@ -25,7 +25,7 @@ def get_numbers_ticket(min: int, max: int, quantity: int):
 
     set_number = set()  
 
-    if min >=1 and max <=1000 and quantity > 0 and quantity <= max:            
+    if min >=1 and max <=1000 and quantity > 0 and quantity <= max and min < max and quantity <= max - min:            
         while len(set_number) != quantity:
                 number = random.randrange(min, max)
                 set_number.add(number)   
@@ -37,7 +37,7 @@ def get_numbers_ticket(min: int, max: int, quantity: int):
     return []
         
      
-lottery_numbers = get_numbers_ticket(10,20,5)
+lottery_numbers = get_numbers_ticket(10,14,6)
 print("Ваші лотерейні числа:", lottery_numbers)
 
 
