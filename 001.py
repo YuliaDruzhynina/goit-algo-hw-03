@@ -10,7 +10,7 @@
 #         result[words[i]] = words[i + 1]
 
 # print(result)
-a = "Hello hi Goodby byu"
+a = "Hello hi Goodby byu ммnnnnnnnnn2222"
 for key, value in a.split():
 
 
